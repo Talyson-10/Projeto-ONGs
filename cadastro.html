@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="index.css" href="index.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+            <center><h2>Cadastro de Vonluntario</h2></center> 
+            <img src="/img/Cadastro.jpg" width="40" height="40">          
+    </header>
+    <navi class="menu">
+                 <a href="index.html" target="_blank">Sobre Nós</a><br>
+                 <a href="projetos.html"target="_blank">Projetos</a><br>
+                 <a href="cadastro.html">Cadastro</a><br>
+            </navi>   
+    <main>
+       <form>
+        <p>Junte-se a nós na missão de restaurar vidas! Preencha o formulário abaixo para se cadastrar como voluntário e fazer a diferença na vida de muitas pessoas.</p>
+                <hr>
+                <br>
+            <div>
+                <label for="idname">Nome completo</label>
+                <input type="name" id="idname" name="idname"/>
+            </div>
+            <div
+                <label for="idemail">Email</label>
+                <input type="email" id="idemail" name="idemail"/>
+            </div>
+             <div>
+                <label for="idpassoword">Senha:</label>
+                <input type="passoword" id="idpassoword" name="idpassoword"/>
+            </div>
+             <div>
+                <label for="iddate">Data de nascimento:</label>
+                <input type="date" id="iddate" name="iddate"/>
+            </div>
+             <div>
+                <label for="idtext">Por que você quer ser voluntário?</label>
+                <input type="text" id="idtext" name="idtext"/>
+            </div>
+            <div>
+                <label for="idselect">Qual Projeto você deseja ajudar:</label>
+                <select id="idselect" name="idselect">
+                    <option value="Selecione">Selecione um Projeto</option>
+                    <option value="cuidar_da_alma">Projeto Cuidar da Alma</option>
+                    <option value="educacao">Projeto Educar para Tranformar</option>
+                    <option value="recomercar">Projeto Recomeçar</option>
+                    <option value="alimentar_vidas">Projeto Alimentar Vidas</option>
+                    <option value="Saude_integral">Projeto Saúde Integral</option>
+                    <option value="outros">Inscrever meu Projeto Social</option>
+                </select>
+            <div>
+                <label for="idtextarea">Se você deseja escrever seu projeto, Escreva detalhadamente sobre seu projeto (objetivos, público-alvo, atividades planejadas e resultados esperados )</label>
+                <textarea id="idtextarea" name="idtextarea" rows="5" cols="50"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Enviar"/>
+                <input type="reset" value="Limpar"/>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

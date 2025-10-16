@@ -1,0 +1,43 @@
+html{
+    background-color: rgb(202, 238, 255); 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color:black;
+}
+
+header {
+    background-color: rgb(173, 236, 253);
+    color: black;
+    padding: 20px;
+    display: flex;
+    gap:10px;
+    padding:10px;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    height: 60px;
+}
+.menu {
+  display: flex;
+  justify-content: center; 
+  gap: 80px; 
+  margin-top: 10px;
+  
+}
+.menu a {
+  text-decoration: none; 
+  color: black; 
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #26117a; 
+}
+main {
+    padding: 20px;
+}
